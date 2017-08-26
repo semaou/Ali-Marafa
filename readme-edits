@@ -1,0 +1,6 @@
+python
+def fibonaci(n):
+    if (n==0):return 0
+    if (n==1):return 1
+    elif (n==2):return 1
+    else:return (fibonaci(n-2) + fibonaci(n-1))
